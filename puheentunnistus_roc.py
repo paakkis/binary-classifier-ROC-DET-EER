@@ -16,8 +16,8 @@ from sklearn.metrics import roc_auc_score
 import seaborn as sns
 
 # Defining the location of the files
-SCOREFILE = "C:/Users/Juuso Paakkunainen/OneDrive - University of Eastern Finland/kandi/20210909_rocs/scores_test_H"
-TRIALSFILE = "C:/Users/Juuso Paakkunainen/OneDrive - University of Eastern Finland/kandi/20210909_rocs/trials_H"
+SCOREFILE = "scores_test_H"
+TRIALSFILE = "trials_H"
 
 # Importing the scores
 scores = np.genfromtxt(SCOREFILE, dtype=str)
